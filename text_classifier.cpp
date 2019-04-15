@@ -25,6 +25,12 @@ int main() {
     n_samples = 5;
     n_classes = 2;
 
+    cout<<"Enter number of samples: ";
+    cin>>n_samples;
+    cout<<"Enter number of target classes: ";
+    cin>>n_classes;
+
+    cin.ignore();
 
     float min_prob = static_cast<float>(INT_MAX);
 
